@@ -1,6 +1,6 @@
 {
   "name": "scqc",
-  "description": "Simple Container Queries",
+  "description": "Simple container queries",
   "version": "0.1.1",
   "maintainers": [
     {
@@ -14,7 +14,7 @@
     "standard-version": "^9.1.0"
   },
   "scripts": {
-    "build": "esbuild src/cq.js --bundle --minify --target=chrome58,firefox57,safari11,edge16 --outfile=dist/cq.min.js",
+    "build": "esbuild src/scqs.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/scqs.min.js",
     "release": "standard-version"
   }
 }
