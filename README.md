@@ -1,2 +1,2 @@
-# CQS - Container Queries 
+# sqcs - Simple container queries 
 
