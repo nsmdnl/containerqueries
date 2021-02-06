@@ -17,12 +17,6 @@
     "build": "esbuild src/scqs.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/scqs.min.js",
     "release": "standard-version"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "prettier": {
     "semi": false,
     "singleQuote": false,
