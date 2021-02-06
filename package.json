@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "esbuild": "^0.8.42"
+  },
+  "scripts": {
+    "build": "esbuild src/cq.js --bundle --minify --target=chrome58,firefox57,safari11,edge16 --outfile=dist/cq.min.js "
+  }
+}
