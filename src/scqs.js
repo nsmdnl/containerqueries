@@ -5,12 +5,12 @@ const cqResizeObserver = new ResizeObserver((entries) => {
 
     const minWBreakpoints = JSON.parse(`[${target.dataset?.cqMinW}]`)
 
-    minWBreakpoints.forEach((bp) => {
-      const attrName = `cq-min-w-${bp}`
+    const conditions = minWBreakpoints.forEach((breakpoint) => {
+      const attrName = `cq-min-w-${breakpoint}`
 
-      if (elWidth >= bp && !target.hasAttribute(attrName)) {
+      if (elWidth >= breakpoint && !target.hasAttribute(attrName)) {
         target.setAttribute(attrName, "")
-      } else if (elWidth < bp) {
+      } else if (elWidth < breakpoint) {
         target.removeAttribute(attrName)
       }
     })

@@ -1,5 +1,7 @@
 # scqs - Simple container queries
 
+[Changelog](CHANGELOG.md)
+
 scqs is a lightweight package [insert size here] for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
 ## Installation
@@ -14,7 +16,7 @@ npm install scqs
 
 ## Usage
 
-## Embed
+### Embed
 
 Embed it via script tag:
 
@@ -28,7 +30,7 @@ or import it in your file like this when using a JS Framework:
 import "node_modules/scqs/dist/scqs.min.js"
 ```
 
-## Define queries
+### Define queries
 
 You can define `min-width`, `max-width`, `min-height` and `max-height` media queries for each element by adding the following attributes, of wich each can also have multiple values:
 
@@ -40,6 +42,8 @@ You can define `min-width`, `max-width`, `min-height` and `max-height` media que
 <div data-cq-min-h="300"></div>
 <div data-cq-max-h="800, 1000"></div>
 ```
+
+### Styling
 
 When the conditions apply to each element, the attribute `cq-{min/max}-{w/h}-{breakpoint}` is added to the element.
 
@@ -58,4 +62,14 @@ div[cq-min-w-400] {
 ## Browser support
 
 scqs uses the modern **ResizeObserver API**, which is not supported by Internet Explorer (so sad! 😿).
-It is gladly supported by modern browsers. You can look up its browser support on (Caniuse)[https://caniuse.com/mdn-api_resizeobserver]
+It is gladly supported by modern browsers. You can look up its browser support on [Caniuse](https://caniuse.com/mdn-api_resizeobserver)
+
+## Contribute to this project
+
+The main source is in `src/scqs.js`. When adding and changing code, please don't forget to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+
+---
+
+That's all! Thank you for using sqcs in your project and/or for contributing <3
+
+~ Nesim
