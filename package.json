@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "esbuild": "^0.8.42"
   },
   "scripts": {
