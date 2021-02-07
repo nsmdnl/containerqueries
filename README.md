@@ -32,7 +32,7 @@ Embed it via script tag:
 or import it in your file like this when using a JS Framework:
 
 ```js
-import "sqcs"
+import "scqs"
 ```
 
 ### Define queries
