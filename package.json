@@ -1,8 +1,8 @@
 {
-  "name": "scqs",
-  "description": "Simple container queries",
-  "repository": "https://github.com/nsmdnl/scqs",
-  "version": "0.1.6",
+  "name": "css-container-queries",
+  "description": "CSS container queries",
+  "repository": "https://github.com/nsmdnl/css-container-queries",
+  "version": "0.2.0",
   "license": "MIT",
   "keywords": [
     "container-queries",
@@ -10,9 +10,9 @@
     "element-query",
     "element-queries",
     "responsive",
-    "CSS"
+    "css"
   ],
-  "main": "dist/scqs.min.js",
+  "main": "dist/css-cq.min.js",
   "author": {
     "name": "Nesim A.",
     "email": "hey@nes.im",
@@ -23,7 +23,7 @@
     "standard-version": "^9.1.0"
   },
   "scripts": {
-    "build": "esbuild src/scqs.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/scqs.min.js",
+    "build": "esbuild src/css-cq.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/css-cq.min.js",
     "release": "standard-version"
   },
   "prettier": {
