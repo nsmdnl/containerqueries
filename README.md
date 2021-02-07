@@ -1,12 +1,14 @@
 # [WIP] scqs - Simple container queries
 
-[Changelog](CHANGELOG.md)
+scqs is a lightweight **< 750 Bytes** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
-scqs is a lightweight package [insert size here] for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
+[Changelog](CHANGELOG.md)
 
 ## Installation
 
-You can either download the file `dist/scqs.min.js` and embed it locally or install it via yarn/npm:
+You can either download the file `dist/scqs.min.js` and embed it locally, or install it via yarn/npm:
+
+<!-- TODO: Via CDN -->
 
 ```bash
 yarn add scqs
@@ -66,9 +68,7 @@ It is gladly supported by modern browsers. You can look up its browser support o
 
 ## Contribute to this project
 
-The main source is in `src/scqs.js`. When adding and changing code, please don't forget to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
-
-`TODO: Mention Prettier`
+The main source is in `src/scqs.js`. When adding and changing code, please don't forget to format it correctly via prettier and to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
 
 Install dependencies with yarn:
 
