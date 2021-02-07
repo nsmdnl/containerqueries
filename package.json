@@ -2,7 +2,7 @@
   "name": "scqc",
   "description": "Simple container queries",
   "repository": "https://github.com/nsmdnl/scqs",
-  "version": "0.1.3",
+  "version": "0.1.4-0",
   "license": "MIT",
   "main": "dist/scqs.min.js",
   "author": {
