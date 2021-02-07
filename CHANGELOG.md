@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/nsmdnl/scqs/compare/v0.1.3-1...v0.1.3) (2021-02-07)
+
+
+### Bug Fixes
+
+* add condition checking if ssr or csr ([4dda701](https://github.com/nsmdnl/scqs/commit/4dda701b7ede026c8319b825d5a7cd91d82e40d5))
+
 ### [0.1.3-1](https://github.com/nsmdnl/scqs/compare/v0.1.3-0...v0.1.3-1) (2021-02-07)
 
 ### [0.1.3-0](https://github.com/nsmdnl/cqs/compare/v0.1.2...v0.1.3-0) (2021-02-06)
