@@ -79,7 +79,7 @@ Install dependencies with yarn:
 yarn
 ```
 
-To compile css-container-queries, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `css-container-queries.min.js` will be generated.
+To compile css-container-queries, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `css-cq.min.js` will be generated.
 
 ---
 
