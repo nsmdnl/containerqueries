@@ -1,6 +1,6 @@
-# scqs - Simple container queries
+# containerqueries - Simple CSS container queries workaround
 
-scqs is a lightweight **< 750 Bytes** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
+containerqueries is a lightweight **< 750 Bytes** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
 [Changelog](CHANGELOG.md)
 
@@ -11,9 +11,9 @@ Demo (coming soon)
 You can either embed the file via `<script>` tag locally or from CDN, or install it via yarn/npm:
 
 ```bash
-yarn add scqs
+yarn add containerqueries
 # or
-npm install scqs
+npm install containerqueries
 ```
 
 ## Usage
@@ -24,15 +24,15 @@ Embed it via script tag:
 
 ```html
 <!-- CDN -->
-<script src="https://cdn.jsdelivr.net/npm/scqs/dist/scqs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/containerqueries/dist/containerqueries.min.js"></script>
 <!-- Local -->
-<script src="path/to/scqs.min.js"></script>
+<script src="path/to/containerqueries.min.js"></script>
 ```
 
 or import it in your file like this when using a JS Framework:
 
 ```js
-import "scqs"
+import "containerqueries"
 ```
 
 ### Define queries
@@ -66,12 +66,12 @@ div[cq-min-w-400] {
 
 ## Browser support
 
-scqs uses the modern **ResizeObserver API**, which is not supported by Internet Explorer (so sad! 😿).
+containerqueries uses the modern **ResizeObserver API**, which is not supported by Internet Explorer (so sad! 😿).
 It is gladly supported by modern browsers. You can look up its browser support on [Caniuse](https://caniuse.com/resizeobserver)
 
 ## Contribute to this project
 
-The main source is in `src/scqs.js`. When adding and changing code, please don't forget to format it correctly via prettier and to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+The main source is in `src/containerqueries.js`. When adding and changing code, please don't forget to format it correctly via prettier and to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
 
 Install dependencies with yarn:
 
@@ -79,7 +79,7 @@ Install dependencies with yarn:
 yarn
 ```
 
-To compile scqs, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `scqs.min.js` will be generated.
+To compile containerqueries, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `containerqueries.min.js` will be generated.
 
 ---
 

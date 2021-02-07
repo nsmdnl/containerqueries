@@ -1,10 +1,10 @@
 {
-  "name": "scqs",
+  "name": "containerqueries",
   "description": "Simple container queries",
-  "repository": "https://github.com/nsmdnl/scqs",
+  "repository": "https://github.com/nsmdnl/containerqueries",
   "version": "0.1.5",
   "license": "MIT",
-  "main": "dist/scqs.min.js",
+  "main": "dist/containerqueries.min.js",
   "author": {
     "name": "Nesim A.",
     "email": "hey@nes.im",
@@ -15,7 +15,7 @@
     "standard-version": "^9.1.0"
   },
   "scripts": {
-    "build": "esbuild src/scqs.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/scqs.min.js",
+    "build": "esbuild src/containerqueries.js --bundle --minify --target=chrome64,firefox69,safari13.1,edge79 --outfile=dist/containerqueries.min.js",
     "release": "standard-version"
   },
   "prettier": {
