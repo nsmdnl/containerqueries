@@ -62,7 +62,7 @@ div[cq-min-w-400] {
 ## Browser support
 
 scqs uses the modern **ResizeObserver API**, which is not supported by Internet Explorer (so sad! 😿).
-It is gladly supported by modern browsers. You can look up its browser support on [Caniuse](https://caniuse.com/mdn-api_resizeobserver)
+It is gladly supported by modern browsers. You can look up its browser support on [Caniuse](https://caniuse.com/resizeobserver)
 
 ## Contribute to this project
 
