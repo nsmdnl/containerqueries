@@ -2,7 +2,7 @@
   "name": "containerqueries",
   "description": "Simple container queries",
   "repository": "https://github.com/nsmdnl/containerqueries",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/containerqueries.min.js",
   "author": {
