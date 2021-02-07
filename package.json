@@ -2,7 +2,7 @@
   "name": "css-container-queries",
   "description": "CSS container queries",
   "repository": "https://github.com/nsmdnl/css-container-queries",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "license": "MIT",
   "keywords": [
     "container-queries",
