@@ -1,3 +1,4 @@
+// wrapper needed to work with SSR
 if (typeof window !== "undefined") {
   const cqResizeObserver = new ResizeObserver((entries) => {
     entries.forEach((entry) => {
@@ -69,8 +70,8 @@ if (typeof window !== "undefined") {
     counterCondition,
     target
   ) {
-    // e.g. cq-min-w-500
-    const attrName = `cq-${cqType}-${breakpoint}`
+    const attrName = `cq-${cqType}-${breakpoint}` // e.g. cq-min-w-500
+
     if (condition && !target.hasAttribute(attrName)) {
       target.setAttribute(attrName, "")
     } else if (counterCondition) {
