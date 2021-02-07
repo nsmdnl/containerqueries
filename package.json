@@ -4,6 +4,14 @@
   "repository": "https://github.com/nsmdnl/scqs",
   "version": "0.1.5",
   "license": "MIT",
+  "keywords": [
+    "container-queries",
+    "container-query",
+    "element-query",
+    "element-queries",
+    "responsive",
+    "CSS"
+  ],
   "main": "dist/scqs.min.js",
   "author": {
     "name": "Nesim A.",
