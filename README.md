@@ -1,4 +1,4 @@
-# [WIP] scqs - Simple container queries
+scqs - Simple container queries
 
 scqs is a lightweight **< 750 Bytes** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
