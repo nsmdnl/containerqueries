@@ -8,9 +8,7 @@ Demo (coming soon)
 
 ## Installation
 
-You can either download the file `dist/scqs.min.js` and embed it locally, or install it via yarn/npm:
-
-<!-- TODO: Via CDN -->
+You can either embed the file via `<script>` tag locally or from CDN, or install it via yarn/npm:
 
 ```bash
 yarn add scqs
@@ -25,6 +23,9 @@ npm install scqs
 Embed it via script tag:
 
 ```html
+<!-- CDN -->
+<script src="https://cdn.jsdelivr.net/npm/scqs/dist/scqs.min.js"></script>
+<!-- Local -->
 <script src="path/to/scqs.min.js"></script>
 ```
 
