@@ -60,9 +60,9 @@ if (typeof window !== "undefined") {
     })
   })
 
+  // Functions
   const parseBreakpoints = (breakpoints) => JSON.parse(`[${breakpoints}]`)
 
-  // Functions
   function toggleAttribute(
     cqType,
     breakpoint,
@@ -82,7 +82,7 @@ if (typeof window !== "undefined") {
   // Get all elements
   const cqEls = Array.from(
     document.querySelectorAll(
-      "[data-cq-min-w], [data-cq-max-w], [data-cq-min-h], [data-cq-max-h]"
+      "[data-cq-min-w],[data-cq-max-w],[data-cq-min-h],[data-cq-max-h]"
     )
   )
 
