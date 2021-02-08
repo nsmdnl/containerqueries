@@ -24,7 +24,7 @@ Embed it via script tag:
 
 ```html
 <!-- CDN -->
-<script src="https://cdn.jsdelivr.net/npm/css-container-queries/dist/css-cq.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/css-container-queries@latest/dist/css-cq.min.js"></script>
 <!-- Local -->
 <script src="path/to/css-cq.min.js"></script>
 ```
