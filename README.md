@@ -1,6 +1,6 @@
 # css-container-queries
 
-css-container-queries is a lightweight **< 750 Bytes** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
+css-container-queries is a lightweight **< 750 Bytes (< 520 Bytes gzipped)** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
 [Changelog](CHANGELOG.md)
 
