@@ -42,25 +42,27 @@ You can define `min-width`, `max-width`, `min-height` and `max-height` container
 
 ```html
 <!-- Width -->
-<div data-cq-max-w="1200"></div>
+<div data-cq-min-w="400"></div>
+<div data-cq-max-w="1600, 1200"></div>
 
-<!-- Height -->
+<!-- Height-->
 <div data-cq-min-h="300, 500"></div>
+<div data-cq-max-h="820"></div>
 
 <!-- Multiple container queries -->
 <div data-cq-min-w="640" data-cq-max-h="720, 880"></div>
 ```
 
-## 🖌️ Styling
-
-When the conditions apply to each element, the attribute `cq-{min/max}-{w/h}-{breakpoint}` is added to the element.
+When the container query conditions apply, the attribute `cq-{min/max}-{w/h}-{breakpoint}` is added to the element:
 
 ```html
 <!-- Element width is > 400px -->
 <div data-cq-min-w="400" cq-min-w-400></div>
 ```
 
-Then, you can style the element as you like with the [attribute selector](https://www.w3schools.com/css/css_attribute_selectors.asp):
+## 🖌️ Styling
+
+You can then style the element as you like with the [attribute selector](https://www.w3schools.com/css/css_attribute_selectors.asp):
 
 ```css
 div[cq-min-w-400] {
