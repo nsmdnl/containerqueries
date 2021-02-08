@@ -71,7 +71,7 @@ It is gladly supported by modern browsers. You can look up its browser support o
 
 ## Contribute to this project
 
-The main source is in `src/css-container-queries.js`. When adding and changing code, please don't forget to format it correctly via prettier and to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+The main source is in `src/css-cq.js`. When adding and changing code, please don't forget to format it correctly via prettier and to add comments to the file that clarify what the code is doing. When commiting, please use [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
 
 Install dependencies with yarn:
 
@@ -79,7 +79,7 @@ Install dependencies with yarn:
 yarn
 ```
 
-To compile css-container-queries, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `css-cq.min.js` will be generated.
+To compile css-container-queries, [esbuild](https://github.com/evanw/esbuild) is used. just type `yarn build`, and a fresh `css-cq.min.js` will be generated in the `dist`folder.
 
 ---
 
