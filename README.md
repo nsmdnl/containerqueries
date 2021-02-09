@@ -8,9 +8,26 @@ Demo (coming soon)
 
 ## ⬇️ Installation
 
-You have two possibilites:
+### Via package manager
 
-Embed via `<script>` tag right before the closing `</body>` tag.
+```bash
+# Yarn
+yarn add css-container-queries
+# NPM
+npm install css-container-queries
+# GitHub Packages
+npm install @nsmdnl/css-container-queries
+```
+
+After installing, just import the file in your document
+
+```js
+import "css-container-queries"
+```
+
+### Via `<script>` tag
+
+Place the tag right before the closing `</body>` tag.
 
 ```html
 <!-- CDN -->
@@ -18,20 +35,6 @@ Embed via `<script>` tag right before the closing `</body>` tag.
 
 <!-- Local: just download dist/css-cq.min.js -->
 <script src="path/to/css-cq.min.js"></script>
-```
-
-Or install via yarn/npm
-
-```bash
-yarn add css-container-queries
-# or
-npm install css-container-queries
-```
-
-After that, just import the file in your document
-
-```js
-import "css-container-queries"
 ```
 
 As soon as you import css-container-queries on your website, it is ready to go! No need to initialize it.
@@ -56,7 +59,7 @@ You can define `min-width`, `max-width`, `min-height` and `max-height` container
 When the container query conditions apply, the attribute `cq-{min/max}-{w/h}-{breakpoint}` is added to the element:
 
 ```html
-<!-- Element width is > 400px -->
+<!-- Element width is >= 400px -->
 <div data-cq-min-w="400" cq-min-w-400></div>
 ```
 
