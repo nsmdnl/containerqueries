@@ -15,8 +15,6 @@ Demo (coming soon)
 yarn add css-container-queries
 # NPM
 npm install css-container-queries
-# GitHub Packages
-npm install @nsmdnl/css-container-queries
 ```
 
 After installing, just import the file in your document
