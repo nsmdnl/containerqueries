@@ -1,5 +1,7 @@
-// wrapper needed to work with SSR
 if (typeof window !== "undefined") {
+  // 👀 OBSERVERS:
+
+  // ResizeObserver on elements with container-queries
   const cqResizeObserver = new ResizeObserver((entries) => {
     entries.forEach((entry) => {
       const { target } = entry
@@ -60,9 +62,29 @@ if (typeof window !== "undefined") {
     })
   })
 
-  // Functions
+  // MutationObserver on childList and subtree of the body
+  const cqMutationObserver = new MutationObserver((mutations) => {
+    mutations.forEach(() => {
+      // Select all elements with container queries
+      const cqEls = Array.from(
+        document.querySelectorAll(
+          "[data-cq-min-w],[data-cq-max-w],[data-cq-min-h],[data-cq-max-h]"
+        )
+      )
+
+      // Initiate ResizeObserver for each element
+      cqEls.forEach((el) => {
+        cqResizeObserver.observe(el, { box: "border-box" })
+      })
+    })
+  })
+
+  // 🛠️ FUNCTIONS:
+
+  // Create an array with breakpoints from the value of the data-attribute
   const parseBreakpoints = (breakpoints) => JSON.parse(`[${breakpoints}]`)
 
+  // When triggered, toggle matching cq-attribute
   function toggleAttribute(
     cqType,
     breakpoint,
@@ -79,15 +101,11 @@ if (typeof window !== "undefined") {
     }
   }
 
-  // Get all elements
-  const cqEls = Array.from(
-    document.querySelectorAll(
-      "[data-cq-min-w],[data-cq-max-w],[data-cq-min-h],[data-cq-max-h]"
-    )
-  )
+  // 🚀  LET THE ACTION BEGIN:
 
-  // Initiate Resizeobserver
-  cqEls.forEach((el) => {
-    cqResizeObserver.observe(el, { box: "border-box" })
+  // Initiate MutationObserver
+  cqMutationObserver.observe(document.body, {
+    childList: true,
+    subtree: true,
   })
 }

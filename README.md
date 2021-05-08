@@ -1,6 +1,6 @@
 # css-container-queries
 
-css-container-queries is a lightweight **< 750 Bytes (< 520 Bytes gzipped)** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
+css-container-queries is a lightweight **826 Bytes (~500 Bytes gzipped)** package for emulating [Container Queries](https://wicg.github.io/container-queries/) in order to style elements based on their own dimensions instead of the ones of the viewport.
 
 [Changelog](CHANGELOG.md)
 
@@ -47,11 +47,11 @@ You can define `min-width`, `max-width`, `min-height` and `max-height` container
 <div data-cq-max-w="1600, 1200"></div>
 
 <!-- Height-->
-<div data-cq-min-h="300, 500"></div>
+<div data-cq-min-h="300,500"></div>
 <div data-cq-max-h="820"></div>
 
 <!-- Multiple container queries -->
-<div data-cq-min-w="640" data-cq-max-h="720, 880"></div>
+<div data-cq-min-w="640" data-cq-max-h="720,880"></div>
 ```
 
 When the container query conditions apply, the attribute `cq-{min/max}-{w/h}-{breakpoint}` is added to the element:
@@ -94,6 +94,4 @@ To compile css-container-queries, [esbuild](https://github.com/evanw/esbuild) is
 
 ---
 
-That's all! Thank you for using sqcs in your project and/or for contributing <3
-
-~ Nesim
+That's all! Thank you for using `css-container-queries` in your project and/or for contributing <3
