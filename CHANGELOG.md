@@ -2,25 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.3.1](https://github.com/nsmdnl/css-container-queries/compare/v0.3.0...v0.3.1) (2021-03-07)
+## 0.4.0 (2021-05-09)
+
+### Features
+
+- add MutationObserver to handle dynamically added DOM elements ([087a579](https://github.com/nsmdnl/css-container-queries/commit/087a57935b791a5ddd76279bc49f8b0a7019b918))
 
 ## [0.3.0](https://github.com/nsmdnl/css-container-queries/compare/v0.1.6...v0.3.0) (2021-02-08)
 
-
 ### ⚠ BREAKING CHANGES
 
-* change name from scqs to css-container-queries
+- change name from scqs to css-container-queries
 
-* change name from scqs to css-container-queries ([55c6afa](https://github.com/nsmdnl/css-container-queries/commit/55c6afa61eb5362b0a407b2b4bb196bc948e4438))
+- change name from scqs to css-container-queries ([55c6afa](https://github.com/nsmdnl/css-container-queries/commit/55c6afa61eb5362b0a407b2b4bb196bc948e4438))
 
 ## [0.2.0](https://github.com/nsmdnl/css-container-queries/compare/v0.1.6...v0.2.0) (2021-02-07)
 
-
 ### ⚠ BREAKING CHANGES
 
-* change name from scqs to css-container-queries
+- change name from scqs to css-container-queries
 
-* change name from scqs to css-container-queries ([55c6afa](https://github.com/nsmdnl/css-container-queries/commit/55c6afa61eb5362b0a407b2b4bb196bc948e4438))
+- change name from scqs to css-container-queries ([55c6afa](https://github.com/nsmdnl/css-container-queries/commit/55c6afa61eb5362b0a407b2b4bb196bc948e4438))
 
 ### [0.1.6](https://github.com/nsmdnl/css-container-queries/compare/v0.1.5...v0.1.6) (2021-02-07)
 
